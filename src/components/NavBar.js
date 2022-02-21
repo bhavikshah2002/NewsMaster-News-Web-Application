@@ -12,7 +12,7 @@ export class NavBar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar  navbar-expand-lg navbar-dark bg-dark">
     <div className="container-fluid">
     <img src={logo} alt="" width="65" height="45" className="d-inline-block align-text-top mx-4"/>
     <Link className="navbar-brand" to="/">NewsMaster</Link>

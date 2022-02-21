@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import load from "../images/load.PNG"
-export class NewsItem extends Component {
-  render() {
-      let {title,despription,imgURL,newsURL,author,date,source}=this.props;
+const NewsItem=(props)=>  {
+
+      let {title,despription,imgURL,newsURL,author,date,source}=props;
     return (
       <div className='my-3'>
         
@@ -22,7 +22,7 @@ export class NewsItem extends Component {
         </div>
       </div>
     )
-  }
+
 }
 
 export default NewsItem

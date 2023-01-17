@@ -8,7 +8,7 @@ const NewsItem=(props)=>  {
         
 
         <div className="card" >
-          <div className="d-flex justify-content-end position-absolute end-0"style={{zIndex:1,fontWeight:500}}>
+          <div className="d-flex justify-content-end position-absolute top-90 right=10"style={{zIndex:1,fontWeight:500}}>
             <span className=" badge rounded-pill bg-success" > {source} </span>
 
           </div>
